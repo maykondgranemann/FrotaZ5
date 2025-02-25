@@ -1,0 +1,16 @@
+body{
+    background: #000;
+}
+header{
+    background: #ccc;
+}
+main{
+    background: #fff;
+}
+h1, p{
+    text-transform: capitalize;
+}
+
+footer{
+    background: #ccc;
+}
