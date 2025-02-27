@@ -2,15 +2,64 @@ body{
     background: #000;
 }
 header{
+    padding: 0 5%;
+    /*
+    1 valor = todos os lados
+    2 valores = TOP e Base, Lat D e Lat E
+    3 valores = TOP, Lat D e Lat E, Base
+    4 valores = TOP, Lat D, Base, Lat E
+     */
+}
+header{
+    display: flex;
     background: #ccc;
+    align-items: center;
+    justify-content: space-between;
 }
 main{
     background: #fff;
 }
-h1, p{
-    text-transform: capitalize;
-}
-
 footer{
     background: #ccc;
+}
+header #logo img{
+    width: 80px;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 2px;
+}
+header nav ul li{
+    text-transform: uppercase;
+    font-size: 11px;
+    background: #015ebb;
+    color: #fff;
+    padding: 4px 5px;
+    border: 2px solid #015ebb;
+}
+header nav ul li:hover{
+    background: #fff;
+    color: #015ebb;
+}
+header nav ul li:hover a{
+    color: #015ebb;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+main{
+    width: 90%;
+    margin: 20px auto;
+}
+footer{
+    position: absolute;
+    width: 90%;
+    padding: 0 5%;
+    bottom: 0;
+    text-align: center;
 }
