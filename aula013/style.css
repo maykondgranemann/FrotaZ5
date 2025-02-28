@@ -15,14 +15,12 @@ header{
     background: #ccc;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    top:0;
+    width: 90%;
 }
-main{
-    background: #fff;
-}
-footer{
-    background: #ccc;
-}
-header #logo img{
+
+header #logo a img{
     width: 80px;
 }
 
@@ -54,12 +52,27 @@ header nav ul li a{
 
 main{
     width: 90%;
-    margin: 20px auto;
+    margin: 100px auto;
+    min-height: 600px;
+    padding: 15px 20px;
+    background: #fff;
+}
+/* . significa class, # significa Id */
+.titulo{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px 0;
+}
+hr{    
+    border-color: #015ebb; 
 }
 footer{
-    position: absolute;
-    width: 90%;
-    padding: 0 5%;
+    background: #ccc;
+    min-height: 50px;
+    position: fixed;
     bottom: 0;
+    width: 90%;
+    padding: 15px 5%;
     text-align: center;
 }
