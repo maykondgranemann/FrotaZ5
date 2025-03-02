@@ -1,0 +1,8 @@
+/* reset de css */
+html, body, header, main, footer, h1, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+/* Fim do reset CSS */
